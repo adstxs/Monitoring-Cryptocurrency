@@ -1,10 +1,6 @@
 # Monitoring-Cryptocurrency
 
-Aplikasi Monitoring Cryptocurrency. Data diperbarui setiap 10s. Aplikasi ini dibuat menggunakan [INDODAX API](https://github.com/btcid/indodax-official-api-docs) :
-
-- https://indodax.com/api/ticker/${pair_id} --> Untuk bagian detail coin yang dipilih.
-- https://indodax.com/api/pairs --> Untuk bagian market atau list 180 coin.
-
+Aplikasi Monitoring Cryptocurrency. Data diperbarui setiap 10s. Aplikasi ini dibuat menggunakan [INDODAX API](https://github.com/btcid/indodax-official-api-docs)
 
 ## Tampilan Aplikasi
 
