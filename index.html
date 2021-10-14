@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Indodax Kel 06 Web B 2021</title>
+  </head>
+  <body>
+    <main>
+      <!-- Coin Detail -->
+      <section>
+        <div class="container">
+          <div class="title">
+            <h2>Detail</h2>
+          </div>
+
+          <div class="detail-wrapper">
+            <div class="card p-1">
+              <!-- Content Top -->
+              <div class="content-top">
+                <img src="https://indodax.com/v2/logo/svg/color/btc.svg" alt="Logo Coin" class="logo" />
+                <div>
+                  <p class="coin-desc"></p>
+                  <p class="server_time"></p>
+                </div>
+              </div>
+
+              <!-- Content Bottom -->
+              <div class="content-bot mt-1">
+                <div class="split">
+                  <p>Harga Tertinggi</p>
+                  <p class="high"></p>
+                </div>
+                <hr />
+                <div class="split">
+                  <p>Harga Terendah</p>
+                  <p class="low"></p>
+                </div>
+                <hr />
+                <div class="split">
+                  <p class="vol_coin_label"></p>
+                  <p class="vol_coin"></p>
+                </div>
+                <hr />
+                <div class="split">
+                  <p class="vol_currency_label"></p>
+                  <p class="vol_currency"></p>
+                </div>
+                <hr />
+                <div class="split">
+                  <p>Harga Terakhir</p>
+                  <p class="last"></p>
+                </div>
+                <hr />
+                <div class="split">
+                  <p>Pembelian</p>
+                  <p class="buy"></p>
+                </div>
+                <hr />
+                <div class="split">
+                  <p>Penjualan</p>
+                  <p class="sell"></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Desc -->
+            <div class="desc mt-1">
+              <p>Keterangan:</p>
+              <div class="desc-item">
+                <span class="dot dot-increase"></span>
+                <p>Increase</p>
+              </div>
+              <div class="desc-item">
+                <span class="dot dot-decrease"></span>
+                <p>Decrease</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Coins -->
+      <section>
+        <div class="container">
+          <div class="title">
+            <h2>Market</h2>
+            <p class="total"></p>
+          </div>
+
+          <div class="search-wrapper">
+            <input class="search-input" type="search" />
+            <button class="search-button" type="submit">Search</button>
+          </div>
+
+          <div class="category-wrapper">
+            <div class="category-item category-item-active">ALL</div>
+            <div class="category-item">IDR</div>
+            <div class="category-item">USDT</div>
+          </div>
+
+          <div class="coin-container"></div>
+          <div class="pagination-container"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="title">Created by <a href="https://webb21kel06.000webhostapp.com/" target="_blank">Kel 06 Web B 2021</a></div>
+      </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
