@@ -8,7 +8,7 @@ Aplikasi Monitoring Cryptocurrency. Data diperbarui setiap 10s. Aplikasi ini dib
 
 ## Fitur Aplikasi
 
-| Version | Description | Preview |
+| Versi | Deskripsi | Live Preview |
 | --- | --- | --- |
 | v1 | Menampilkan 180 koin berdasarkan kategori dan detailnya | https://indodaxkel06b.netlify.app/ |
 | v2 | Penambahan fitur search autocomplete dan pagination | https://indodaxkel06bv2.netlify.app/ |
