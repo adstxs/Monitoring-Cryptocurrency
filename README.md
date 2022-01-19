@@ -1,7 +1,6 @@
 # Monitoring-Cryptocurrency
 
-Aplikasi Monitoring Cryptocurrency. Data diperbarui setiap 10s. Aplikasi ini dibuat menggunakan [INDODAX API](https://github.com/btcid/indodax-official-api-docs). Live Preview https://indodaxkel06bv2.netlify.app/
-
+Aplikasi Monitoring Cryptocurrency. Data diperbarui setiap 10s. Aplikasi ini dibuat menggunakan [INDODAX API](https://github.com/btcid/indodax-official-api-docs).
 ## Tampilan Aplikasi
 
 ![](design/preview.png)
